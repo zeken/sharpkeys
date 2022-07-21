@@ -864,6 +864,8 @@ namespace SharpKeys
             // is pretty obvious.  There is a bit of a reverse lookup however, so labels changed here
             // need to be changed in a couple of other places
             m_hashKeys = new Hashtable();
+            m_hashKeys.Add("E1_1D", "-by Vitox: Pause/Break");
+
             m_hashKeys.Add("00_00", "-- Turn Key Off");
             m_hashKeys.Add("00_01", "Special: Escape");
             m_hashKeys.Add("00_02", "Key: 1 !");
